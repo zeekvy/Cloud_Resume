@@ -50,6 +50,41 @@ h1 {
   font-size: 0.98rem;
 }
 
+.project-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.project-image {
+  flex: 1;
+  text-align: right;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 700px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-image {
+    text-align: center;
+  }
+
+}
 .project-img {
   width: 100%;
   max-width: 600px;
