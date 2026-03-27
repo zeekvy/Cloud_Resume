@@ -3,142 +3,226 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohamad Zikri Bin Zaidi | IT Deskside Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Mohamad Zikri — Cloud & Security Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="page">
 
-  <header class="wrap">
-    <div>
+  <!-- ── Header ── -->
+  <header>
+    <div class="name-block">
       <h1>Mohamad Zikri Bin Zaidi</h1>
-      <div class="subtitle">IT Deskside Engineer</div>
-      <div class="contact">
-        md_zikri@hotmail.com | +65 8883 6443
-      </div>
+      <p class="tagline">IT Engineer · Cloud & Security · AWS · Python · CI/CD</p>
     </div>
+    <div class="contact-block">
+      <a href="tel:+6588836443" class="pill">+65 8883 6443</a>
+      <a href="mailto:md_zikri@hotmail.com" class="pill">md_zikri@hotmail.com</a>
+      <a href="https://github.com/zeekvy" target="_blank" class="pill">github.com/zeekvy</a>
+    </div>
+    
+    <section>
     <div>
       <a href="Mohamad_Zikri_Resume.pdf" download class="download-btn">Click here to download resume in PDF</a>
     </div>
+  </section>
+  
   </header>
 
-  <main class="wrap">
+  <!-- ── About ── -->
+  <section>
+    <p class="section-label">About me</p>
+    <p class="summary-text">
+      IT Engineer with hands-on experience in <strong>system support and infrastructure</strong>, now building towards a career in
+      <strong>cloud and application security</strong>. Deployed AWS-hosted infrastructure with automated CI/CD pipelines and built secure web
+      applications with multi-factor authentication, CSRF protection, and audit logging. Currently completing a
+      <strong>BSc (Hons) in Cyber Security</strong> (Coventry University, all coursework done). Seeking cloud or security engineering roles
+      where I can apply both practical IT operations experience and security-first development skills.
+    </p>
+  </section>
 
-    <section>
-      <h2>About</h2>
-      <p>
-        IT Engineer with experience in troubleshooting and system support, transitioning into cybersecurity and cloud. Built secure web applications with authentication and security controls. Seeking opportunities in cloud and security roles.
-      </p>
-    </section>
+  <!-- ── Projects ── -->
+  <section>
+    <p class="section-label">Projects</p>
+    <div class="projects-grid">
 
-    <section>
-      <h2>Experience</h2>
-
-      <div class="job">
-        <div class="job-title">IT Deskside Engineer</div>
-        <div class="job-meta">Alphaeus Pte Ltd (Kyndryl) | July 2025 to Present</div>
+      <div class="project-card">
+        <h2>Secure Notes Web App</h2>
+        <a href="https://github.com/zeekvy/securenotes-flask" target="_blank" class="project-link">github.com/zeekvy/securenotes-flask</a>
+        <div class="project-tags">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">CSRF</span>
+          <span class="skill-pill">OTP 2FA</span>
+          <span class="skill-pill">Audit Logging</span>
+        </div>
         <ul>
-          <li>Sole on-site IT support for a polyclinic, handling all technical issues independently</li>
-          <li>Provided deskside support for hardware, software, and network issues in a fast-paced environment</li>
-          <li>Troubleshot Windows OS, login issues, and application errors</li>
-          <li>Supported Microsoft 365, including Outlook and Teams issues</li>
-          <li>Managed user accounts, password resets, and access permissions</li>
-          <li>Configured and supported network and label printers</li>
-          <li>Diagnosed network issues using IP configuration and connectivity checks</li>
-          <li>Performed device setup, imaging, and deployment for users</li>
+          <li>Web app with user authentication, session management, and encrypted note storage</li>
+          <li>OTP-based two-factor authentication (2FA) and bcrypt password hashing</li>
+          <li>CSRF token protection and automatic session timeout to prevent common attack vectors</li>
+          <li>Audit log system tracking user activity for compliance and forensic review</li>
         </ul>
       </div>
 
-      <div class="job">
-        <div class="job-title">Auxiliary Police Officer</div>
-        <div class="job-meta">AETOS Holdings | Nov 2023 to Jun 2025</div>
+      <div class="project-card">
+        <h2>Cloud Resume & CI/CD Pipeline</h2>
+        <a href="https://github.com/zeekvy/Cloud_Resume" target="_blank" class="project-link">github.com/zeekvy/Cloud_Resume</a>
+        <div class="project-tags">
+          <span class="skill-pill">AWS S3</span>
+          <span class="skill-pill">GitHub Actions</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">Git</span>
+        </div>
         <ul>
-          <li>Handled security operations and incident response in high-pressure environments
-</li>
-          <li>Followed strict procedures and maintained situational awareness</li>
+          <li>Static resume website deployed on AWS S3 with public hosting</li>
+          <li>Fully automated CI/CD pipeline, changes pushed to main branch deploy instantly</li>
+          <li>Version control, asset organisation, and deployment config managed entirely via Git</li>
+          <li>DevOps best practices end-to-end: source control, automated builds, cloud deployment</li>
         </ul>
       </div>
 
-      <div class="job">
-        <div class="job-title">Game Design Intern</div>
-        <div class="job-meta">Binus University | Sep 2018 to Mar 2019</div>
-        <ul>
-          <li>Developed basic game features using programming logic and scripting</li>
-          <li>Tested and debugged applications to identify and resolve issues</li>
-          <li>Conducted user testing and analysed feedback to improve functionality</li>
-          <li>Used tools such as Unity to support application development and testing</li>
-        </ul>
-      </div>
-
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <div class="skills">
-        <div class="skill">Python</div>
-        <div class="skill">Flask</div>
-        <div class="skill">SQL</div>
-        <div class="skill">MySQL</div>
-        <div class="skill">AWS EC2, S3, RDS</div>
-        <div class="skill">Microsoft 365</div>
-        <div class="skill">Windows</div>
-        <div class="skill">Networking</div>
-        <div class="skill">Troubleshooting</div>
-        <div class="skill">HTML</div>
-        <div class="skill">Linux basics</div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Education</h2>
-      <div class="job">
-      <p><strong>BSc (Hons) Cyber Security</strong> | Coventry University (Expected Nov 2026)</p>
-      <p><strong>Diploma in Game Design</strong> | Republic Polytechnic (2019)</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <div class="job">
-      <div class="project-container">
-
-  <div class="project-text">
-      <p><strong>Secure Notes Web App</strong></p>
-      <a href="https://github.com/zeekvy/securenotes-flask" class="download-btn"target="_blank">
-        View on GitHub </a>
-      <div class="project_stuff">Python, Flask, MySQL | 2026</div>
-      <ul>
-        <li>Built secure web app with authentication and note management</li>
-        <li>Implemented password hashing and OTP-based 2FA</li>
-        <li>Applied CSRF protection and session timeout</li>
-        <li>Logged user activity for audit tracking</li>
-      </ul>
-    </div>
-  
-    <div class="project-image">
-      <img src="assets/secure_notes.png" alt="Secure Notes App Screenshot">
     </div>
   </section>
+
+  <!-- ── Experience ── -->
   <section>
+    <p class="section-label">Work Experience</p>
+
     <div class="job">
-      <p><strong>Cloud Resume Website</strong></p>
-  <a href="https://github.com/zeekvy/cloud_resume" class="download-btn"target="_blank">
-    View on GitHub
-  </a>
-      <div class="project_stuff">AWS S3, GitHub Actions, HTML, CSS | 2026</div>
-      <ul>
-        <li>Deployed static resume website using Amazon S3</li>
-        <li>Automated deployment using GitHub Actions</li>
-        <li>Built CI/CD pipeline for push-based updates</li>
-        <li>Managed website assets and version control using Git</li>
-      </ul>
+      <div class="job-header">
+        <span class="job-title">IT Deskside Engineer</span>
+        <span class="job-date">July 2025 — Present</span>
       </div>
-    </section>
+      <span class="job-company">Alphaeus Pte Ltd (Kyndryl)</span>
+      <ul>
+        <li>Sole on-site IT support for a polyclinic — independently managed all hardware, software, and network issues</li>
+        <li>Supported 50+ users across Microsoft 365 apps, resolving at least 20 issues per day under SLA pressure</li>
+        <li>Administered user accounts, access permissions, and password policies through Active Directory</li>
+        <li>Diagnosed network faults using IP configuration, connectivity analysis, and ping/traceroute tools</li>
+        <li>Performed full device lifecycle management: imaging, configuration, deployment, and decommission</li>
+        <li>Configured and maintained network and label printers across clinical departments</li>
+      </ul>
+    </div>
 
-  </main>
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Auxiliary Police Officer</span>
+        <span class="job-date">Nov 2023 — July 2025</span>
+      </div>
+      <span class="job-company">AETOS Holdings Pte Ltd</span>
+      <ul>
+        <li>Managed access control and physical security at a critical facility, enforcing strict entry/exit procedures</li>
+        <li>Responded to security incidents and anomalies, demonstrating situational awareness under pressure</li>
+        <li>Maintained detailed incident logs and shift handover documentation</li>
+      </ul>
+    </div>
 
-  <div class="footer wrap">
-    Mohamad Zikri Bin Zaidi | +65 88836443 | md_zikri@hotmail.com
-  </div>
-  <script src="script.js"></script>
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Game Design Intern</span>
+        <span class="job-date">Sep 2018 — Mar 2019</span>
+      </div>
+      <span class="job-company">Binus University Indonesia</span>
+      <ul>
+        <li>Developed game features using Unity and scripting logic; debugged application errors through systematic testing</li>
+        <li>Conducted user testing sessions, collected feedback, and iterated on application behaviour</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- ── Skills ── -->
+  <section>
+    <p class="section-label">Skills</p>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <p class="skill-group-label">Cloud</p>
+        <div class="skill-pills">
+          <span class="skill-pill">AWS EC2</span>
+          <span class="skill-pill">S3</span>
+          <span class="skill-pill">RDS</span>
+          <span class="skill-pill">IAM</span>
+          <span class="skill-pill">CloudWatch</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group-label">Languages</p>
+        <div class="skill-pills">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">Bash</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group-label">Security</p>
+        <div class="skill-pills">
+          <span class="skill-pill">2FA / OTP</span>
+          <span class="skill-pill">CSRF</span>
+          <span class="skill-pill">bcrypt</span>
+          <span class="skill-pill">Audit Logging</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group-label">Frameworks & Tools</p>
+        <div class="skill-pills">
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">GitHub Actions</span>
+          <span class="skill-pill">Linux</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group-label">IT Operations</p>
+        <div class="skill-pills">
+          <span class="skill-pill">Windows OS</span>
+          <span class="skill-pill">Microsoft 365</span>
+          <span class="skill-pill">Active Directory</span>
+          <span class="skill-pill">Network Diagnostics</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Education ── -->
+  <section>
+    <p class="section-label">Education</p>
+
+    <div class="edu-item">
+      <div>
+        <p class="edu-degree">BSc (Hons) Cybersecurity <span class="badge">All Coursework Done</span></p>
+        <p class="edu-inst">Coventry University</p>
+      </div>
+      <span class="edu-year">Expected Nov 2026</span>
+    </div>
+
+    <div class="edu-item">
+      <div>
+        <p class="edu-degree">Diploma in Game Design</p>
+        <p class="edu-inst">Republic Polytechnic</p>
+      </div>
+      <span class="edu-year">2019</span>
+    </div>
+
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <span>Mohamad Zikri Bin Zaidi · Singapore</span>
+    <span>+65 88836443 · md_zikri@hotmail.com · github.com/zeekvy</span>
+  </footer>
+
+</div>
 </body>
 </html>
